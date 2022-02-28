@@ -1,0 +1,104 @@
+body{
+    background-color: #401a3f; background: url('https://img.freepik.com/free-vector/poker-background-with-golden-cards-realistic-dice_1017-32739.jpg?w=1380') no-repeat ; background-size: cover;  text-align: center;
+}
+.heading{display: inline-block; position: relative; z-index: -1;}
+
+img{
+    width: 122px; display: inline-block; position: relative; top: 46px;
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+
+.dice1{ transform: rotate(-130deg);}
+.dice2{ transform: rotate(25deg);}
+
+
+.rotate{
+    width: 180px; height: 180px; margin: 40px; margin-top: 280px; background-color: #901814;  flex: 0 1 auto;
+    border-radius: 15px;
+    transition-duration: 3s;
+    transition-timing-function: cubic-bezier(0.065, 0.92, 0.135, 4);
+    transition-property: transform;
+    transform: rotate(360deg);
+}
+.rotate-mar{
+    width: 180px; height: 180px; margin: 40px; margin-top: 280px; background-color: #901814;  flex: 0 1 auto;
+    border-radius: 15px;
+    transition-duration: 3s;
+    transition-timing-function: cubic-bezier(0.065, 0.92, 0.135, 3);
+    transition-property: transform;
+    transform: rotate(360deg);
+    margin-right: 495px;
+}
+h1{
+    color: #aebdcc;font-size: 5rem; font-family: 'Niconne', cursive; text-shadow: 2px 2px #825858;
+}
+
+.div1{
+     width: 180px; height: 180px; margin: 40px; margin-top: 280px; background-color: #901814; flex: 0 1 auto;
+     border-radius: 15px; min-width: 50px; min-height: 50px;
+}
+.dice-box-1{
+    margin-right: 495px;
+}
+
+.roll{
+    width: 40px; height: 40px;  margin:8px 15px; background-color: white;  display: inline-block;  border-radius:100% ;
+}
+
+.down-shift{
+    width: 40px; height: 40px;  margin:8px 15px; background-color: white;  display: inline-block;  border-radius:100% ;
+    position: relative; top: 34px;
+}
+
+.hide{
+    width: 40px; height: 12px;  margin:8px 10px; background-color: white;  display: inline-block;  border-radius:100%;
+    visibility: hidden;
+}
+
+.hide1{
+    width: 40px; height: 40px;  margin:8px 15px; background-color: white;  display: inline-block;  border-radius:100%;
+    visibility: hidden;
+}
+
+button{padding: 6px 1.3rem; font-family: 'Press Start 2P', cursive; background-color: 	#ffcf40; 
+    border: none; border-radius: 18px;   margin-top: 10px; background: linear-gradient( 45deg, rgb(172, 179, 117),#ffcf40);
+    color: #401a3f;
+}
+
+
+.top-3{
+    width: 40px; height: 40px;  margin:8px 15px; background-color: white;  display: inline-block;  border-radius:100% ;
+    position: relative; right: 15px; top: 12px;
+}
+
+.mid-3{
+    width: 40px; height: 40px;  margin:8px 15px; background-color: white;  display: inline-block;  border-radius:100% ;
+    position: relative; right: 33px;
+}
+
+.end-3{
+    width: 40px; height: 40px;  margin:8px 15px; background-color: white;  display: inline-block;  border-radius:100% ;
+    position: relative; left: 15px; bottom: 12px;
+}
+
+.top-2{
+    width: 40px; height: 40px;  margin:8px 15px; background-color: white;  display: inline-block;  border-radius:100% ;
+    position: relative; left: 15px; top: 42px;
+}
+.bottom-2{
+    width: 40px; height: 40px;  margin:8px 15px; background-color: white;  display: inline-block;  border-radius:100% ;
+    position: relative; right: 15px; bottom: 42px;
+}
+
+.win-banner{ font-family: 'Press Start 2P', cursive; font-size: 1.26rem; color: #d49d25;
+    text-shadow: 2px 2px #000000;
+    transition-duration: 2.4s;
+}
+
+.play-again{visibility: hidden;}
+.refresh-page{visibility: visible;}
+
+button:hover{background-color: rgb(132, 149, 60); color:whitesmoke;}
+.player-1{margin-right: 510px;}
+.player-2{margin-left:  50px;}
+h2{margin-top: 50px;}
